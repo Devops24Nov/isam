@@ -1,6 +1,4 @@
 ---
 - hosts: localhost
-  tasks:
-  - debug: msg="Trigger AAC Runtime Restart"
-    changed_when: True
-    notify: Restart AAC Runtime
+  roles:
+  - start_config
