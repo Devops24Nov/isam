@@ -1,1 +1,4 @@
-
+---
+- hosts: localhost
+  roles:
+  - upload_jmt_files
