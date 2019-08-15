@@ -1,0 +1,13 @@
+update_reverseproxy_conf_entries:
+- stanza_id: "server"
+  entry_id:  "worker-threads"
+  value_id:  "301"
+- stanza_id: "server"
+  entry_id:  "worker-threads"
+  value_id:  "301"
+- stanza_id: "server"
+  entry_id:  "worker-threads"
+  value_id:  "301"
+- stanza_id: "server"
+  entry_id:  "worker-threads"
+  value_id:  "301"
