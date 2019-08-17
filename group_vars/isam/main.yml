@@ -56,7 +56,7 @@ action_params:
 jmt_files: [file1,file2,file3]
 
 
-#######jmt files #######################
+#######runtime_templates #######################
  runtime_templates: 
    - id: "server1"
      filename:  "abc.html"
