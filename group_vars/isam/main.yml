@@ -55,4 +55,15 @@ action_params:
  # Default variables for uploading jmt files
 jmt_files: [file1,file2,file3]
 
+
+#######jmt files #######################
+ runtime_templates: 
+   - id: "server1"
+     filename:  "abc.html"
+   - id: "server2"
+     filename:  "abc2.html"  
+   - id: "server3"
+     filename:  "abc3.html"
+   - id: "server4"
+     filename:  "abc4.html"  
         
