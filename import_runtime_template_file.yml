@@ -1,0 +1,4 @@
+--- 
+- hosts: localhost
+  roles:
+  - import_runtime_template_file
