@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  roles:
+  - import_management_root_zip

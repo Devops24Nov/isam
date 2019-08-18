@@ -1,0 +1,5 @@
+# Provide Reverse Proxy instance name
+#import_management_root_zip_instance_id:
+
+# Provide a zip file in management root to be imported
+#import_management_root_zip_filename:
