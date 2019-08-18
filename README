@@ -2,3 +2,6 @@ ansible-playbook -i hosts AAC-Runtime-Restart.yml
 
 
 ansible-playbook -i hosts configure_reverseproxy_instances.yml -e "@extra_vars.yml"
+
+
+ansible-playbook -i hosts import_management_root_zip.yml
