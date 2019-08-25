@@ -1,9 +1,18 @@
 ################# configure_reverseproxy_junctions ##############
+instances:
+-   inst_name: default
+    junctions:
+      -   junction_point:             "/jct1"
+          junction_type:              "tcp"
+          servers:
+            -   server_hostname:    "localhost"
+                server_port:        443
+                
 
 # Default variables for configuration of reverse proxy junctions
-instances: []
+#instances: []
 
-inst_name: "{{ item.inst_name }}"
+#inst_name: "{{ item.inst_name }}"
 
 # Configuration entry to control, if not listed junction servers should be deleted on the server
 delete_junction_server: false
