@@ -1,4 +1,4 @@
 ---
 - hosts: localhost
   roles:
-  - configure_reverseproxy_junctions
+  - web/configure_reverseproxy_junctions
